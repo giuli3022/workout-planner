@@ -86,7 +86,7 @@ function App() {
 
   const deleteExercise = (day, nameActivity) => {
     const clon = [...activities];
-    const dayIndex = clon.findIndex(activity => activity.day == day);
+    const dayIndex = clon.findIndex(activity => activity.day === day);
     const exercisesIndex = clon[dayIndex].exercises.findIndex(exercise => exercise.activity === nameActivity);
     clon[dayIndex].exercises.splice(exercisesIndex, 1);
 

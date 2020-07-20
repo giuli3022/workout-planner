@@ -5,14 +5,10 @@ import '../../sass/Components/Card.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrash } from '@fortawesome/free-solid-svg-icons';
 import { faPen } from '@fortawesome/free-solid-svg-icons';
-import edit from "../../imgs/edit.png";
-import remove from "../../imgs/quit.png";
+
 
 const Card = props => {
     const {
-        addExercise,
-        editExercise,
-        deleteExercise,
         openEditModal,
         toggleModalDelete,
         setDayToDelete,

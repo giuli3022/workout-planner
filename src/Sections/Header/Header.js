@@ -6,7 +6,7 @@ import Lightning from '../../imgs/flash.png';
 const Header = ({toggleShowModal}) => {
     return (
         <header className="workout-header">
-            <img className="lightning-img" src={Lightning} />
+            <img className="lightning-img" src={Lightning} alt="lighting"/>
             <h1 className="title-workout">Workout Planner </h1>
         </header>
     );
