@@ -1,0 +1,16 @@
+.home {
+    width: 1200px;
+    height: 450px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    p {
+        background-color: yellow;
+        font-size: 60px;
+        font-weight: 900;
+        font-style: italic;
+        letter-spacing: 2px;
+        margin: auto;
+        text-align: center;
+    }
+}

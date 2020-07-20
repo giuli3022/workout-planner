@@ -1,0 +1,73 @@
+#delete-box {
+  background-color: #ffffff;
+  width: 255px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px 20px 50px;
+  box-shadow: 0 0 10px 5px #8f8c8770;
+  border-top: 5px solid #ffdd09;
+  z-index: 100;
+  position: fixed;
+  left: calc(50% - 185px);
+  top: 20vh;
+}
+
+#delete-header {
+  width: 100%;
+  margin: 25px 0 20px 0;
+  display: flex;
+  h2 {
+    width: 200px;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: 2px;
+    display: inline-block;
+    margin-top: 0;
+  }
+}
+
+article {
+  p {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+}
+
+.delete-activity-button {
+  background-color: #00b65f;
+  width: 255px;
+  height: 43px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 20px 0 20px 0;
+  border: 3px solid #018752;
+  border-radius: 30px;
+  outline: none;
+}
+
+.delete-activity-button:hover {
+  text-decoration: underline;
+}
+
+.cancel-activity-button {
+  background-color: #dfdfdf;
+  width: 255px;
+  height: 43px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 0px 0 20px 0;
+  border: 3px solid gray;
+  border-radius: 30px;
+  outline: none;
+}
+
+.cancel-activity-button:hover {
+  text-decoration: underline;
+}

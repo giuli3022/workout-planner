@@ -1,0 +1,82 @@
+#card {
+  background-image: url(../../imgs/card-detail1.png);
+  background-size: 300px 300px;
+  background-position: right;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  margin: 20px;
+  box-shadow: 0 0 10px 5px #8f8c8770;
+  border-top: 5px solid #ffdd09;
+
+}
+
+.card-article {
+  width: 170px;
+  height: 170px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  overflow: auto;
+  padding: 20px;
+  h2 {
+    width: 100%;
+    height: 48px;
+    font-size: 32px;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: 2px;
+    margin: 0;
+    overflow: hidden;
+    word-break: break-all;
+
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+    &:hover {
+      text-overflow: inherit;
+      word-break: inherit;
+      animation: marquesina 3s linear infinite;
+      animation-delay: -1.5s;
+    }
+  }
+  h3 {
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 25px 0 15px 0;
+  }
+}
+
+@keyframes marquesina {
+  0% {
+    text-indent: 200px;
+  }
+  50% {
+    text-indent: 0px;
+  }
+
+  100% {
+    text-indent: -200px;
+  }
+  
+}
+
+.card-footer {
+  width: 100%;
+  height: 40px;
+}
+
+.pen-icon {
+  font-size: 30px;
+  margin-left: 80px;
+  cursor: pointer;
+}
+
+.trash-icon {
+  font-size: 30px;
+  margin-left: 15px;
+  cursor: pointer;
+}

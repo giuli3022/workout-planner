@@ -1,0 +1,62 @@
+.main-buttons {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+.add-button {
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  line-height: 60px;
+  margin: 15px;
+  cursor: pointer;
+  border-radius: 50px;
+  box-shadow: 0 0 10px 5px #8f8c8770;
+  &:hover {
+    background-color: $green;
+  }
+  &:active {
+    background-color: $dark-green;
+    .add-icon {
+      color: $yellow;
+    }
+  }
+}
+
+.add-icon {
+  color: $white;
+  font-size: 30px;
+}
+/*
+.calculator-button {
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  line-height: 60px;
+  margin: 15px;
+  cursor: pointer;
+  border-radius: 50px;
+  box-shadow: 0 0 10px 5px #8f8c8770;
+  &:hover {
+    background-color: $green;
+  }
+  &:active {
+    background-color: $dark-green;
+    .calculator-icon {
+      color: $yellow;
+    }
+  }
+}
+
+.calculator-icon {
+  color: $white;
+  font-size: 30px;
+}
+*/
