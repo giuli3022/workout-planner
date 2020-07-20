@@ -10,7 +10,7 @@ import DaysContainer from './Sections/DaysContainer/DaysContainer';
 import ExercisesContext from './Context/ExercisesContext';
 import './sass/Common/all.scss';
 import {
-  BrowserRouter,
+  HashRouter
 } from 'react-router-dom';
 
 
@@ -141,10 +141,10 @@ function App() {
           : null
       }
       <Header />
-      <BrowserRouter>
+      <HashRouter>
         <Links />
         <SwitchDay edit={editExercise} />
-      </BrowserRouter>
+      </HashRouter>
       <MainButtons toggleShowModal={toggleShowModal} />
 
     </ExercisesContext.Provider>
