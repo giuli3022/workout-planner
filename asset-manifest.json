@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/workout-planner/static/css/main.9abf05af.chunk.css",
-    "main.js": "/workout-planner/static/js/main.b5de8c2d.chunk.js",
-    "main.js.map": "/workout-planner/static/js/main.b5de8c2d.chunk.js.map",
+    "main.js": "/workout-planner/static/js/main.aae374c0.chunk.js",
+    "main.js.map": "/workout-planner/static/js/main.aae374c0.chunk.js.map",
     "runtime-main.js": "/workout-planner/static/js/runtime-main.06edf704.js",
     "runtime-main.js.map": "/workout-planner/static/js/runtime-main.06edf704.js.map",
-    "static/js/2.a727281b.chunk.js": "/workout-planner/static/js/2.a727281b.chunk.js",
-    "static/js/2.a727281b.chunk.js.map": "/workout-planner/static/js/2.a727281b.chunk.js.map",
+    "static/js/2.581383f9.chunk.js": "/workout-planner/static/js/2.581383f9.chunk.js",
+    "static/js/2.581383f9.chunk.js.map": "/workout-planner/static/js/2.581383f9.chunk.js.map",
     "index.html": "/workout-planner/index.html",
-    "precache-manifest.f355091f2c95277480f4090b6348f2aa.js": "/workout-planner/precache-manifest.f355091f2c95277480f4090b6348f2aa.js",
+    "precache-manifest.d28252a6012fb6cf270c32a37c6961df.js": "/workout-planner/precache-manifest.d28252a6012fb6cf270c32a37c6961df.js",
     "service-worker.js": "/workout-planner/service-worker.js",
     "static/css/main.9abf05af.chunk.css.map": "/workout-planner/static/css/main.9abf05af.chunk.css.map",
-    "static/js/2.a727281b.chunk.js.LICENSE.txt": "/workout-planner/static/js/2.a727281b.chunk.js.LICENSE.txt",
+    "static/js/2.581383f9.chunk.js.LICENSE.txt": "/workout-planner/static/js/2.581383f9.chunk.js.LICENSE.txt",
     "static/media/all.scss": "/workout-planner/static/media/card-detail1.d1442d47.png"
   },
   "entrypoints": [
     "static/js/runtime-main.06edf704.js",
-    "static/js/2.a727281b.chunk.js",
+    "static/js/2.581383f9.chunk.js",
     "static/css/main.9abf05af.chunk.css",
-    "static/js/main.b5de8c2d.chunk.js"
+    "static/js/main.aae374c0.chunk.js"
   ]
 }
